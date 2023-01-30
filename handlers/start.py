@@ -8,7 +8,8 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 @Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAx0CZp7eIAACpv1jYIbWhI9JPBkvLLSLwPxc-8yu2QACDgcAAruXGFbarx8_grqJYh4E")
+    await message.reply_sticker("CAACAgUAAxkBAAEHg41j16UEickFyJDp7N31eNtg6Hwr1wACXQgAArooqFbhnYKq6x22Bi0E
+")
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f""" ** Hey {message.from_user.mention()} , 🥀\n\n
@@ -17,7 +18,7 @@ async def start_(client: Client, message: Message):
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
-➻ Made 🖤 by : [𝗝𝝙𝗬🥀](https://t.me/{me}) ** """,
+➻ Made 🖤 by : [🇲 🇴 🇨 🇦](https://t.me/{me}) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -43,7 +44,7 @@ async def start_(client: Client, message: Message):
                         "✅ Inline ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "💡 Git repo", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "💡 Git repo", url=""
                     )]
             ]
        ),
