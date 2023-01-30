@@ -18,7 +18,7 @@ async def start_(client: Client, message: Message):
 
 ──────────────────
 ๏  All of my command can be used with My command handle : ( / . • $ ^ ~ + * ? )
-➻ Made 🖤 by : [🇲 🇴 🇨 🇦](https://t.me/{me}) ** """,
+➻ Made 🖤 by : [🇲 🇴 🇨 🇦](https://t.me/{Moca_s1}) ** """,
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -44,7 +44,7 @@ async def start_(client: Client, message: Message):
                         "✅ Inline ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "💡 Git repo", url=""
+                        "💡 Git repo", url="https://github.com/sappola/cd-musc-nto"
                     )]
             ]
        ),
